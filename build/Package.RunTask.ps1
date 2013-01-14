@@ -1,7 +1,7 @@
 
 
 $date = get-date
-$dy = $date.DayOfYear
+$dy = "{0:D3}" -f $date.DayOfYear
 $fy = "{0:%y}" -f $date
 $task = "NuGetPack"
 $version = "3.0." + $fy + $dy + ".01"
