@@ -7,7 +7,7 @@ function Merge-Assemblies {
 		$outputFile,
 		$exclude,
 		$keyfile,
-		$targetPlatform="v4,C:/WINDOWS/Microsoft.NET/Framework/v4.0.30319"
+		$targetPlatform="v4,C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0"
 	)
 
 	$exclude | out-file ".\exclude.txt"
